@@ -1,0 +1,337 @@
+
+@charset "UTF-8";
+
+body {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  background-color: #000000;
+  margin: 0;
+  color: #0e0e0e;
+}
+
+.intro {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #181A1B;
+}
+.contenedor {
+  width: 100%;
+  background-color: #232526;
+}
+
+header {
+  width: 100%;
+  height: 8%;
+  background-color: #111213;
+  border-bottom: 1px solid #00ffd0;
+}
+.logo {
+  color: #ff0000;
+  font-weight: bold;
+  margin-left: auto;
+  letter-spacing: 4px;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 2em;
+  font-size: 22px;
+}
+.hero_header {
+  color: #fdfafa;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.text_column {
+  width: 100%;
+  text-align: left;
+  font-weight: lighter;
+  line-height: 20px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: #b0b3b4;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.thumbnail {
+  width: 48%;
+  margin: 1%;
+  background: #fff;
+  border-radius: 4px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.tag {
+  background-color: #ffe066;
+  color: #222;
+  padding: 4px 12px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 2px 4px 2px 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+.tag.electrico { background-color: #f7d02c; color: #222; }
+.tag.fuego { background-color: #ee8130; color: #fff; }
+.tag.agua { background-color: #6390f0; color: #fff; }
+.tag.volador { background-color: #a98ff3; color: #fff; }
+.tag.fantasma { background-color: #735797; color: #fff; }
+.tag.veneno { background-color: #a33ea1; color: #fff; }
+.tag.bicho { background-color: #a6b91a; color: #222; }
+.tag.dragon { background-color: #6f35fc; color: #fff; }
+.tag.hielo { background-color: #96d9d6; color: #222; }
+.tag.normal { background-color: #a8a77a; color: #222; }
+.tag.lucha { background-color: #c22e28; color: #fff; }
+.tag.planta { background-color: #7ac74c; color: #222; }
+.tag.psiquico { background-color: #f95587; color: #fff; }
+.tag.roca { background-color: #b6a136; color: #222; }
+.tag.tierra { background-color: #e2bf65; color: #222; }
+.tag.acero { background-color: #b7b7ce; color: #222; }
+.tag.hada { background-color: #f4b1f4; color: #222; }
+
+.thumbnail img {
+  width: 80%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+  opacity: 1;
+}
+.banner-dinamico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(90deg, #ff9800, #ff5722, #ff1744, #ff8a65);
+  border: 3px solid #cfeaed;
+  border-radius: 8px;
+}
+.gallery .thumbnail h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #d00000;
+  text-align: center;
+}
+.gallery .thumbnail p {
+  margin: 5px;
+  color: #000000;
+  text-align: left;
+  padding-left: 20px;
+}
+.sin-titulo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.intro {
+  background-color: #232526;
+  padding-bottom: 35px;
+}
+.column {
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
+  float: left;
+}
+.intro .column h3 {
+  color: #FFFFFF;
+  text-align: center;
+}
+.intro .column p {
+  color: #CCCCCC;
+}
+.cards {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  opacity: 0.8;
+}
+.intro .column p {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 80%;
+  margin-top: 4%;
+}
+.button {
+  width: 100px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  text-align: center;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 3px solid #6DC7D0;
+  color: #6DC7D0;
+  background-color: transparent;
+  transition: all 0.3s linear;
+  display: block;
+}
+.button:hover {
+  background-color: #6DC7D0;
+  color: #232526;
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #232526;
+  color: #6DC7D0;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  border-top-width: 2px;
+}
+footer {
+  background-color: #111213;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.intro {
+  display: inline-block;
+  background-color: #232526;
+}
+.profile {
+  width: 50%;
+}
+.gallery .thumbnail .tag {
+  color: #000000;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  .thumbnail {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 320px) {
+.logo {
+  width: 100%;
+  text-align: center;
+  margin-top: 13px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.text_column {
+  width: 100%;
+  text-align: justify;
+  padding: 0;
+}
+.intro .column p {
+  width: 80%;
+  margin-left: 0px;
+}
+.text_column {
+  padding-left: 20px;
+}
+.thumbnail {
+  width: 100%;
+}
+.column {
+  width: 100%;
+  margin-top: 0px;
+}
+.hero_header {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+}
+}
+
+/* Small Tablets  pantallas de escritorio pequeñas Laptops de 11" a 13" Resoluciones entre 768px y 1024px de ancho, aproximadamente*/
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+  width: 100%;
+  text-align: center;
+  margin-top: 13px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.text_column {
+  width: 100%;
+  text-align: left;
+  padding: 0;
+}
+.thumbnail {
+  width: 100%;
+}
+.column {
+  width: 100%;
+  margin-top: 0px;
+}
+.thumbnail {
+  width: 100%;
+}
+.text_column {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+}
+.column {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.profile {
+  width: 100%;
+}
+.intro .column p {
+  width: 90%;
+  text-align: center;
+  padding-left: 0px;
+}
+}
+
+/* PANTALLAS DE ESCRITORIO CHICAS */
+@media (min-width: 768px) and (max-width: 1096px) {
+.text_column {
+  width: 100%;
+}
+.thumbnail {
+  width: 48%;
+}
+.text_column {
+  width: 90%;
+  margin: 0;
+  padding: 20px;
+}
+.intro .column p {
+  width: 80%;
+}
+}
