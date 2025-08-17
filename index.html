@@ -4,24 +4,24 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HOLA </title>
-<link href="COPYCLASS.css" rel="stylesheet" type="text/css">
+<title>trabajo de fin de año</title>
+<link href="finaldeanio.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!-- primer contenedor -->
 <div class="container"> 
   
   <header class="header">
-    <h4 class="logo">PORTAFOLIO</h4>
+    <h4 class="logo">Q TAL?</h4>
   </header>
   <!-- seccion heroica  -->
   <section class="intro">
     <div class="column">
       <h3>KEVIN FONTES</h3>
-      <img src="srcs/cindermaidd.png" class="profile"> </div>
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png" class="profile"> </div>
     <div class="column">
       <p class="yo" style="color: #ffffff; font-size: 40px; letter-spacing: 1px; line-height: 1.5;">
-      Sobre mí me gusta mc osu, tambien pokemon, pokemon y por casi ultimo osu, y de curiosidad me gusta pokemon
+      cosas que me gustan
       </p>
     </div>
   </section>
@@ -31,21 +31,14 @@
       <input type="radio" name="paginacion" id="btn3" hidden>
       <input type="radio" name="paginacion" id="btn4" hidden>
       <input type="radio" name="paginacion" id="btn5" hidden>
-      <input type="radio" name="paginacion" id="btn6" hidden>
-      <input type="radio" name="paginacion" id="btn7" hidden>
-      <input type="radio" name="paginacion" id="btn8" hidden>
-      <input type="radio" name="paginacion" id="btn9" hidden>
+
 
       <div class="banner-dinamico">
-        <div id="banner1" class="banner-texto">¡Estos son mis Pokémon favoritos de primera generación!</div>
+        <div id="banner1" class="banner-texto">¡Estos son mis Pokémon favoritos!</div>
         <div id="banner2" class="banner-texto">¡Aquí están mis Pokémon favoritos de segunda generación!</div>
         <div id="banner3" class="banner-texto">¡Estos son mis Pokémon favoritos de tercera generación!</div>
         <div id="banner4" class="banner-texto">¡Estos son mis Pokémon favoritos de cuarta generación!</div>
         <div id="banner5" class="banner-texto">¡Estos son mis Pokémon favoritos de quinta generación!</div>
-        <div id="banner6" class="banner-texto">¡Estos son mis Pokémon favoritos de sexta generación!</div>
-        <div id="banner7" class="banner-texto">¡Estos son mis Pokémon favoritos de séptima generación!</div>
-        <div id="banner8" class="banner-texto">¡Estos son mis Pokémon favoritos de octava generación!</div>
-        <div id="banner9" class="banner-texto">¡Estos son mis Pokémon favoritos de novena generación!</div>
 
 
       </div>
@@ -55,24 +48,16 @@
         #btn2:checked ~ .banner-dinamico #banner2,
         #btn3:checked ~ .banner-dinamico #banner3,
         #btn4:checked ~ .banner-dinamico #banner4,
-        #btn5:checked ~ .banner-dinamico #banner5,
-        #btn6:checked ~ .banner-dinamico #banner6,
-        #btn7:checked ~ .banner-dinamico #banner7,
-        #btn8:checked ~ .banner-dinamico #banner8,
-        #btn9:checked ~ .banner-dinamico #banner9 {
+        #btn5:checked ~ .banner-dinamico #banner5 {
           display: block;
         }
       </style>
-      <div style="display: flex; gap: 10px; justify-content: center; margin: 20px 0;">
-        <label for="btn1" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #64989e; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">1</label>
-        <label for="btn2" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #6e8f9d; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">2</label>
-        <label for="btn3" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #6e8c8d; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">3</label>
-         <label for="btn4" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #6e8c8d; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">4</label>
-          <label for="btn5" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #6e8c8d; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">5</label>
-           <label for="btn6" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #6e8c8d; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">6</label>
-            <label for="btn7" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #6e8c8d; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">7</label>
-             <label for="btn8" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #6e8c8d; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">8</label>
-              <label for="btn9" style="flex: 1; min-width: 50px; max-width: 120px; padding: 1em; background: #6e8c8d; border-radius: 8px; text-align: center; font-size: 2vw; cursor: pointer; color: #000000;">9</label>
+      <div style="display: flex; gap: 10px; justify-content: center; margin: 20px 0;" class="paginacion">
+        <label for="btn1" class="btn-paginacion">1</label>
+        <label for="btn2" class="btn-paginacion">2</label>
+        <label for="btn3" class="btn-paginacion">3</label>
+        <label for="btn4" class="btn-paginacion">4</label>
+        <label for="btn5" class="btn-paginacion">5</label>
       </div>
 
 
@@ -81,420 +66,53 @@
         <div id="grupo1" class="grupo">
           <div class="gallery">
         <div class="thumbnail">
+          <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/384.png" alt="Rayquaza" class="cards"/></a>
+          <h4>Rayquaza</h4>
+          <p class="tag dragon">Dragón</p>
+          <p class="tag volador">Volador</p>
+          <p class="text_column">Rayquaza es el guardián de los cielos y puede calmar los conflictos entre Kyogre y Groudon.</p>
+        </div>
+        <div class="thumbnail">
           <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png" alt="Jolteon" class="cards"/></a>
           <h4>Jolteon</h4>
           <p class="tag electrico">Eléctrico</p>
           <p class="text_column">Jolteon almacena electricidad en su pelaje y puede lanzar potentes descargas eléctricas.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png" alt="Arcanine" class="cards"/></a>
-            <h4>Arcanine</h4>
-            <p class="tag fuego">Fuego</p>
-            <p class="text_column">Arcanine es conocido por su velocidad y su naturaleza valiente y leal.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png" alt="Vaporeon" class="cards"/></a>
-            <h4>Vaporeon</h4>
-            <p class="tag agua">Agua</p>
-            <p class="text_column">Vaporeon puede disolverse en el agua y tiene la habilidad de controlar líquidos.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png" alt="Zapdos" class="cards"/></a>
-            <h4>Zapdos</h4>
-            <p class="tag electrico">Eléctrico</p>
-            <p class="tag volador">Volador</p>
-            <p class="text_column">Zapdos controla los rayos y suele aparecer durante tormentas eléctricas.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png" alt="Gengar" class="cards"/></a>
-            <h4>Gengar</h4>
-            <p class="tag fantasma">Fantasma</p>
-            <p class="tag veneno">Veneno</p>
-            <p class="text_column">Gengar es travieso y le encanta asustar a la gente con su sombra.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png" alt="Scyther" class="cards"/></a>
-            <h4>Scyther</h4>
-            <p class="tag bicho">Bicho</p>
-            <p class="tag volador">Volador</p>
-            <p class="text_column">Scyther es rápido y usa sus afiladas cuchillas para cortar a sus oponentes.</p>
-          </div>
-            </div>
-          </div>
-
-
-
-          <div id="grupo2" class="grupo">
-            <div class="gallery">
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/212.png" alt="Scizor" class="cards"/></a>
-                <h4>Scizor</h4>
-                <p class="tag bicho">Bicho</p>
-                <p class="tag acero">Acero</p>
-                <p class="text_column">Scizor tiene pinzas de acero increíblemente fuertes y es muy rápido en combate.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/182.png" alt="Bellosom" class="cards"/></a>
-                <h4>Bellosom</h4>
-                <p class="tag planta">Planta</p>
-                <p class="text_column">Bellosom baila para atraer la luz solar y su flor desprende un aroma dulce.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/248.png" alt="Tyranitar" class="cards"/></a>
-                <h4>Tyranitar</h4>
-                <p class="tag roca">Roca</p>
-                <p class="tag siniestro">Siniestro</p>
-                <p class="text_column">Tyranitar es extremadamente fuerte y puede causar terremotos al caminar.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png" alt="Totodile" class="cards"/></a>
-                <h4>Totodile</h4>
-                <p class="tag agua">Agua</p>
-                <p class="text_column">Totodile es pequeño pero tiene una mordida muy poderosa y es muy juguetón.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png" alt="Espeon" class="cards"/></a>
-                <h4>Espeon</h4>
-                <p class="tag psiquico">Psíquico</p>
-                <p class="text_column">Espeon usa sus poderes psíquicos para predecir los movimientos de sus rivales.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png" alt="Umbreon" class="cards"/></a>
-                <h4>Umbreon</h4>
-                <p class="tag siniestro">Siniestro</p>
-                <p class="text_column">Umbreon brilla en la oscuridad y es muy leal a su entrenador.</p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div id="grupo3" class="grupo">
-            <div class="gallery">
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/257.png" alt="Blaziken" class="cards"/></a>
-                <h4>Blaziken</h4>
-                <p class="tag fuego">Fuego</p>
-                <p class="tag lucha">Lucha</p>
-                <p class="text_column">Blaziken puede saltar edificios y lanza potentes patadas envueltas en fuego.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/282.png" alt="Gardevoir" class="cards"/></a>
-                <h4>Gardevoir</h4>
-                <p class="tag psiquico">Psíquico</p>
-                <p class="tag hada">Hada</p>
-                <p class="text_column">Gardevoir puede ver el futuro y proteger a su entrenador con campos de energía.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/373.png" alt="Salamence" class="cards"/></a>
-                <h4>Salamence</h4>
-                <p class="tag dragon">Dragón</p>
-                <p class="tag volador">Volador</p>
-                <p class="text_column">Salamence puede volar grandes distancias y es muy feroz en combate.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/303.png" alt="Mawile" class="cards"/></a>
-                <h4>Mawile</h4>
-                <p class="tag acero">Acero</p>
-                <p class="tag hada">Hada</p>
-                <p class="text_column">Mawile usa su gran mandíbula para morder y engañar a sus oponentes.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/330.png" alt="Flygon" class="cards"/></a>
-                <h4>Flygon</h4>
-                <p class="tag tierra">Tierra</p>
-                <p class="tag dragon">Dragón</p>
-                <p class="text_column">Flygon es conocido como el "Espíritu del Desierto" y puede crear tormentas de arena.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/350.png" alt="Milotic" class="cards"/></a>
-                <h4>Milotic</h4>
-                <p class="tag agua">Agua</p>
-                <p class="text_column">Milotic es considerado uno de los Pokémon más bellos y calma los ánimos con su presencia.</p>
-              </div>
-            </div>
-          </div>
-
-
-            <div id="grupo4" class="grupo">
-              <div class="gallery">
-                <div class="thumbnail">
-                  <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png" alt="Lucario" class="cards"/></a>
-                  <h4>Lucario</h4>
-                  <p class="tag lucha">Lucha</p>
-                  <p class="tag acero">Acero</p>
-                  <p class="text_column">Lucario puede percibir las auras y es muy leal a su entrenador.</p>
-                </div>
-                <div class="thumbnail">
-                  <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/445.png" alt="Garchomp" class="cards"/></a>
-                  <h4>Garchomp</h4>
-                  <p class="tag dragon">Dragón</p>
-                  <p class="tag tierra">Tierra</p>
-                  <p class="text_column">Garchomp es rápido como un avión y muy poderoso en combate.</p>
-                </div>
-                <div class="thumbnail">
-                  <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/471.png" alt="Glaceon" class="cards"/></a>
-                  <h4>Glaceon</h4>
-                  <p class="tag hielo">Hielo</p>
-                  <p class="text_column">Glaceon puede congelar el aire a su alrededor y crear cristales de hielo.</p>
-                </div>
-                <div class="thumbnail">
-                  <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/468.png" alt="Togekiss" class="cards"/></a>
-                  <h4>Togekiss</h4>
-                  <p class="tag hada">Hada</p>
-                  <p class="tag volador">Volador</p>
-                  <p class="text_column">Togekiss es símbolo de paz y felicidad, y reparte bendiciones a su paso.</p>
-                </div>
-                <div class="thumbnail">
-                  <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/392.png" alt="Infernape" class="cards"/></a>
-                  <h4>Infernape</h4>
-                  <p class="tag fuego">Fuego</p>
-                  <p class="tag lucha">Lucha</p>
-                  <p class="text_column">Infernape es ágil y ataca con potentes puñetazos envueltos en fuego.</p>
-                </div>
-                <div class="thumbnail">
-                  <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/479.png" alt="Rotom" class="cards"/></a>
-                  <h4>Rotom</h4>
-                  <p class="tag electrico">Eléctrico</p>
-                  <p class="tag fantasma">Fantasma</p>
-                  <p class="text_column">Rotom puede poseer aparatos eléctricos y cambiar de forma.</p>
-                </div>
-              </div>
-            </div>
-
-
-
-          <div id="grupo5" class="grupo">
-            <div class="gallery">
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/500.png" alt="Emboar" class="cards"/></a>
-                <h4>Emboar</h4>
-                <p class="tag fuego">Fuego</p>
-                <p class="tag lucha">Lucha</p>
-                <p class="text_column">Emboar puede lanzar fuego por su barba y es muy fuerte en combate cuerpo a cuerpo.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/635.png" alt="Hydreigon" class="cards"/></a>
-                <h4>Hydreigon</h4>
-                <p class="tag dragon">Dragón</p>
-                <p class="tag siniestro">Siniestro</p>
-                <p class="text_column">Hydreigon tiene tres cabezas y es temido por su naturaleza agresiva.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/503.png" alt="Samurott" class="cards"/></a>
-                <h4>Samurott</h4>
-                <p class="tag agua">Agua</p>
-                <p class="text_column">Samurott usa su cuerno como espada y es muy honorable en batalla.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/609.png" alt="Chandelure" class="cards"/></a>
-                <h4>Chandelure</h4>
-                <p class="tag fantasma">Fantasma</p>
-                <p class="tag fuego">Fuego</p>
-                <p class="text_column">Chandelure absorbe el espíritu de sus oponentes con sus llamas espectrales.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/571.png" alt="Zoroark" class="cards"/></a>
-                <h4>Zoroark</h4>
-                <p class="tag siniestro">Siniestro</p>
-                <p class="text_column">Zoroark puede crear ilusiones realistas para confundir a sus rivales.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/530.png" alt="Excadrill" class="cards"/></a>
-                <h4>Excadrill</h4>
-                <p class="tag tierra">Tierra</p>
-                <p class="tag acero">Acero</p>
-                <p class="text_column">Excadrill excava túneles a gran velocidad y tiene garras de acero afiladas.</p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div id="grupo6" class="grupo">
-            <div class="gallery">
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png" alt="Sylveon" class="cards"/></a>
-                <h4>Sylveon</h4>
-                <p class="tag hada">Hada</p>
-                <p class="text_column">Sylveon usa sus cintas para calmar a sus rivales y es muy protector con sus amigos.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/658.png" alt="Greninja" class="cards"/></a>
-                <h4>Greninja</h4>
-                <p class="tag agua">Agua</p>
-                <p class="tag siniestro">Siniestro</p>
-                <p class="text_column">Greninja es ágil y lanza shurikens de agua con gran precisión.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/706.png" alt="Goodra" class="cards"/></a>
-                <h4>Goodra</h4>
-                <p class="tag dragon">Dragón</p>
-                <p class="text_column">Goodra es muy cariñoso y su cuerpo es completamente viscoso.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/681.png" alt="Aegislash" class="cards"/></a>
-                <h4>Aegislash</h4>
-                <p class="tag acero">Acero</p>
-                <p class="tag fantasma">Fantasma</p>
-                <p class="text_column">Aegislash puede cambiar de forma entre escudo y espada durante el combate.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/663.png" alt="Talonflame" class="cards"/></a>
-                <h4>Talonflame</h4>
-                <p class="tag fuego">Fuego</p>
-                <p class="tag volador">Volador</p>
-                <p class="text_column">Talonflame es muy rápido y ataca con potentes embestidas de fuego.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/715.png" alt="Noivern" class="cards"/></a>
-                <h4>Noivern</h4>
-                <p class="tag volador">Volador</p>
-                <p class="tag dragon">Dragón</p>
-                <p class="text_column">Noivern emite potentes ondas ultrasónicas para aturdir a sus rivales.</p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div id="grupo7" class="grupo">
-            <div class="gallery">
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/724.png" alt="Decidueye" class="cards"/></a>
-                <h4>Decidueye</h4>
-                <p class="tag planta">Planta</p>
-                <p class="tag fantasma">Fantasma</p>
-                <p class="text_column">Decidueye dispara flechas con gran precisión y se mueve sigilosamente.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/730.png" alt="Primarina" class="cards"/></a>
-                <h4>Primarina</h4>
-                <p class="tag agua">Agua</p>
-                <p class="tag hada">Hada</p>
-                <p class="text_column">Primarina canta melodías que controlan burbujas de agua en combate.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/727.png" alt="Incineroar" class="cards"/></a>
-                <h4>Incineroar</h4>
-                <p class="tag fuego">Fuego</p>
-                <p class="tag siniestro">Siniestro</p>
-                <p class="text_column">Incineroar es un luchador feroz que usa movimientos de lucha libre.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/745.png" alt="Lycanroc" class="cards"/></a>
-                <h4>Lycanroc (Forma Crepuscular)</h4>
-                <p class="tag roca">Roca</p>
-                <p class="text_column">Lycanroc es ágil y ataca con garras y colmillos afilados.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/778.png" alt="Mimikyu" class="cards"/></a>
-                <h4>Mimikyu</h4>
-                <p class="tag fantasma">Fantasma</p>
-                <p class="tag hada">Hada</p>
-                <p class="text_column">Mimikyu se disfraza para ser querido y asusta a sus rivales con su aspecto misterioso.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/784.png" alt="Kommo-o" class="cards"/></a>
-                <h4>Kommo-o</h4>
-                <p class="tag dragon">Dragón</p>
-                <p class="tag lucha">Lucha</p>
-                <p class="text_column">Kommo-o protege a los débiles y ataca con sus escamas resonantes.</p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div id="grupo8" class="grupo">
-            <div class="gallery">
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/887.png" alt="Dragapult" class="cards"/></a>
-                <h4>Dragapult</h4>
-                <p class="tag dragon">Dragón</p>
-                <p class="tag fantasma">Fantasma</p>
-                <p class="text_column">Dragapult lanza a sus crías como misiles y es increíblemente veloz.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/812.png" alt="Rillaboom" class="cards"/></a>
-                <h4>Rillaboom</h4>
-                <p class="tag planta">Planta</p>
-                <p class="text_column">Rillaboom usa su tambor para controlar la naturaleza y atacar con ritmo.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/815.png" alt="Cinderace" class="cards"/></a>
-                <h4>Cinderace</h4>
-                <p class="tag fuego">Fuego</p>
-                <p class="text_column">Cinderace es ágil y patea piedras encendidas como si fueran balones.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/818.png" alt="Inteleon" class="cards"/></a>
-                <h4>Inteleon</h4>
-                <p class="tag agua">Agua</p>
-                <p class="text_column">Inteleon es un espía experto y dispara agua con precisión de francotirador.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/869.png" alt="Alcremie" class="cards"/></a>
-                <h4>Alcremie</h4>
-                <p class="tag hada">Hada</p>
-                <p class="text_column">Alcremie puede crear nata de diferentes sabores y formas.</p>
-              </div>
-              <div class="thumbnail">
-                <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/884.png" alt="Duraludon" class="cards"/></a>
-                <h4>Duraludon</h4>
-                <p class="tag acero">Acero</p>
-                <p class="tag dragon">Dragón</p>
-                <p class="text_column">Duraludon es resistente y su cuerpo metálico brilla bajo el sol.</p>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div id="grupo9" class="grupo">
-            <div class="gallery">
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="Venusaur" class="cards"/></a>
-            <h4>Venusaur</h4>
-            <p class="tag planta">Planta</p>
-            <p class="tag veneno">Veneno</p>
-            <p class="text_column">Venusaur usa la flor de su lomo para absorber energía solar.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png" alt="Blastoise" class="cards"/></a>
-            <h4>Blastoise</h4>
-            <p class="tag agua">Agua</p>
-            <p class="text_column">Blastoise dispara potentes chorros de agua por los cañones de su caparazón.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png" alt="Alakazam" class="cards"/></a>
-            <h4>Alakazam</h4>
-            <p class="tag psiquico">Psíquico</p>
-            <p class="text_column">Alakazam tiene un cerebro superdesarrollado y una memoria perfecta.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png" alt="Gyarados" class="cards"/></a>
-            <h4>Gyarados</h4>
-            <p class="tag agua">Agua</p>
-            <p class="tag volador">Volador</p>
-            <p class="text_column">Gyarados es feroz y puede destruir ciudades enteras cuando se enfurece.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png" alt="Ninetales" class="cards"/></a>
-            <h4>Ninetales</h4>
-            <p class="tag fuego">Fuego</p>
-            <p class="text_column">Ninetales puede vivir mil años y tiene poderes místicos.</p>
-          </div>
-          <div class="thumbnail">
-            <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png" alt="Onix" class="cards"/></a>
-            <h4>Onix</h4>
-            <p class="tag roca">Roca</p>
-            <p class="tag tierra">Tierra</p>
-            <p class="text_column">Onix es un enorme Pokémon serpiente hecho de rocas.</p>
-          </div>
         </div>
-      </div>
-
+        <div class="thumbnail">
+          <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/870.png" alt="Falinks" class="cards"/></a>
+          <h4>Falinks</h4>
+          <p class="tag lucha">Lucha</p>
+          <p class="text_column">Falinks es un grupo de seis Pokémon que marchan juntos y luchan en formación.</p>
+        </div>
+        <div class="thumbnail">
+          <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/373.png" alt="Salamence" class="cards"/></a>
+          <h4>Salamence</h4>
+          <p class="tag dragon">Dragón</p>
+          <p class="tag volador">Volador</p>
+          <p class="text_column">Salamence es conocido por su deseo de volar y su gran poder ofensivo.</p>
+        </div>
+        <div class="thumbnail">
+          <a href="#"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/445.png" alt="Garchomp" class="cards"/></a>
+          <h4>Garchomp</h4>
+          <p class="tag dragon">Dragón</p>
+          <p class="tag tierra">Tierra</p>
+          <p class="text_column">Garchomp es rápido y feroz, capaz de volar a gran velocidad y atacar con fuerza.</p>
+        </div>
+        <div class="thumbnail">
+          <a href="#"><img src="https://www.serebii.net/scarletviolet/pokemon/new/987.png" alt="Flutter Mane" class="cards"/></a>
+          <h4>Melenaleteo</h4>
+          <p class="tag fantasma">Fantasma</p>
+          <p class="tag hada">Hada</p>
+          <p class="text_column">Flutter Mane es misterioso y se mueve con gracia, combinando poderes fantasmales y de hada.</p>
+        </div>
+          </div>
+            </div>
+          </div>
+          <div id="grupo2" class="grupo"></div>
+          
+          <div id="grupo3" class="grupo"></div>
+          <div id="grupo4" class="grupo"></div>
+          <div id="grupo5" class="grupo"></div>
       <style>
         .grupo { display: none; }
         input[name="paginacion"]:checked + label {
@@ -505,11 +123,7 @@
         #btn2:checked ~ .contenedor #grupo2,
         #btn3:checked ~ .contenedor #grupo3,
         #btn4:checked ~ .contenedor #grupo4,
-        #btn5:checked ~ .contenedor #grupo5,
-        #btn6:checked ~ .contenedor #grupo6,
-        #btn7:checked ~ .contenedor #grupo7,
-        #btn8:checked ~ .contenedor #grupo8,
-        #btn9:checked ~ .contenedor #grupo9 {
+        #btn5:checked ~ .contenedor #grupo5 {
           display: block;
         }
       </style>
@@ -517,11 +131,9 @@
     </div>
 
   <footer id="contact">
-    <p class="hero_header">PARA CONTACTARME</p>
-    <div class="button" onclick="alert('Mi numero es: 099999999')">tititit</div>
   </footer>
- 
-  <div class="copyright">&copy;2025 - <strong>KEVIN FONTES</strong></div>
+
+  <div class="copyright"><strong>trabajo de Kevin Fontes</strong></div>
 </div>
 
 </body>
